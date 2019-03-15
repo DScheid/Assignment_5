@@ -31,7 +31,7 @@ i {
 
 .container{
   background-color: #d3d3d3;
-  height: 500px;
+  height: 600px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -43,11 +43,17 @@ i {
 
 article {
   width: 230px;
-  height: 65%;
+  height: 80%;
   padding: 35px;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+article:hover {
+  font-size: 120%;
 }
 
 footer {
